@@ -1,6 +1,5 @@
 {
-  "name": "gatsby-starter-blog-theme",
-  "private": true,
+  "name": "thebitcrafter",
   "version": "0.0.1",
   "scripts": {
     "develop": "gatsby develop",

@@ -7,13 +7,13 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `bitcraft.pl`,
+    title: `thebitcrafter.com`,
     author: `Szymon Graczyk`,
-    description: `Yet another blog about development and productivity`,
+    description: `Yet another blog about development, leadership and productivity`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/szgraczyk`,
+        url: `https://twitter.com/thebitcrafter`,
       },
       {
         name: `github`,
@@ -21,4 +21,4 @@ module.exports = {
       },
     ],
   },
-}
+};
