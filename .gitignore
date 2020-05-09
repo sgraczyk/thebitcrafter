@@ -62,4 +62,4 @@ typings/
 
 # gatsby.js
 public
-cache
+.cache
