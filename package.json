@@ -4,12 +4,16 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^2.21.21",
     "gatsby-theme-blog": "^1.5.21",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/theme-ui": "^0.2.5"
   }
 }
