@@ -42,6 +42,10 @@ module.exports = {
         name: `github`,
         url: `https://github.com/sgraczyk`,
       },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/in/szymon-graczyk-15b6544a/`,
+      },
     ],
   },
 }

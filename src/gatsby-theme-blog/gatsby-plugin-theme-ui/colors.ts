@@ -1,25 +1,24 @@
 import merge from 'deepmerge'
 import defaultThemeColors from 'gatsby-theme-blog/src/gatsby-plugin-theme-ui/colors'
 
-/*
- * Want to change your theme colors?
- * Try uncommenting the color overrides below
- * to go from default purple to a blue theme
+/**
+ * These colors are following the pallette from
+ * the Synthwave '84 VS Code theme
+ * @see https://github.com/robb0wen/synthwave-vscode
  */
-
-// const darkBlue = `#007acc`
-// const lightBlue = `#66E0FF`
-// const blueGray = `#282c35`
+const darkPurple = '#232530'
+const lightPink = '#ff7edb'
+const lightGray = '#b9b8b9'
+const darkPink = '#e728a1'
 
 export default merge(defaultThemeColors, {
-  // text: blueGray,
-  // primary: darkBlue,
-  // heading: blueGray,
-  // modes: {
-  //   dark: {
-  //     background: blueGray,
-  //     primary: lightBlue,
-  //     highlight: lightBlue,
-  //   },
-  // },
+  modes: {
+    dark: {
+      background: darkPurple,
+      text: lightGray,
+      primary: lightPink,
+      secondary: lightGray,
+      highlight: darkPink,
+    },
+  },
 })

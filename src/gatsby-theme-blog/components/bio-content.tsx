@@ -13,7 +13,7 @@ export default (): JSX.Element => (
         </Styled.a>
         .
       </span>
-      <small>technical leader | frontend developer | wannabe streamer</small>
+      <small>technical lead | frontend developer | wannabe streamer</small>
     </FlexContainer>
   </Fragment>
 )
