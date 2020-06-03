@@ -10,7 +10,7 @@
   "dependencies": {
     "gatsby": "^2.22.10",
     "gatsby-plugin-prettier-eslint": "^1.0.4",
-    "gatsby-theme-blog": "^1.6.26",
+    "gatsby-theme-blog": "^1.6.33",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
